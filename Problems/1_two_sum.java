@@ -21,3 +21,10 @@ class Solution {
         return result;
     }
 }
+
+/*
+linear time : O(n) with the help of hashing
+key idea : num1 - num2 = difference
+
+we have difference and num1 check num2 there in list : yes - found else - continue till the end
+*/
